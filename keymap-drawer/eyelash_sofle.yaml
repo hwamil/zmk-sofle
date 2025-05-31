@@ -59,7 +59,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-space$$', h: navmed}
   - $$mdi:apple-keyboard-shift$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - Ctl+Gui+S
   - {t: '$$mdi:backspace-reverse-outline$$', h: '4'}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:apple-keyboard-option$$
