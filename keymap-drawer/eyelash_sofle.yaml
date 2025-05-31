@@ -65,7 +65,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - RGUI
   - $$mdi:apple-keyboard-option$$
-  '2':
+  qwerty:
   - {t: '`', s: '~'}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
