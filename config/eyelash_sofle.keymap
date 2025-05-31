@@ -88,7 +88,7 @@
 
         game {
             bindings = <&tog 2>;
-            key-positions = <50 51>;
+            key-positions = <50 49>;
         };
 
         paren {
