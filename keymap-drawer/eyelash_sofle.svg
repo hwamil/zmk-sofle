@@ -667,8 +667,8 @@ rect.held, rect.combo.held {
 </text>
 </g>
 <g class="combo combopos-4">
-<rect rx="6" ry="6" x="154" y="130" width="28" height="26" class="combo"/>
-<text x="168" y="144" class="combo tap">Alt+S</text>
+<rect rx="6" ry="6" x="98" y="201" width="28" height="26" class="combo"/>
+<text x="112" y="214" class="combo tap">Alt+S</text>
 </g>
 <g class="combo combopos-5">
 <rect rx="6" ry="6" x="210" y="186" width="28" height="26" class="combo"/>
@@ -1087,8 +1087,8 @@ rect.held, rect.combo.held {
 </text>
 </g>
 <g class="combo combopos-4">
-<rect rx="6" ry="6" x="154" y="130" width="28" height="26" class="combo"/>
-<text x="168" y="144" class="combo tap">Alt+S</text>
+<rect rx="6" ry="6" x="98" y="201" width="28" height="26" class="combo"/>
+<text x="112" y="214" class="combo tap">Alt+S</text>
 </g>
 <g class="combo combopos-5">
 <rect rx="6" ry="6" x="210" y="186" width="28" height="26" class="combo"/>
@@ -1507,8 +1507,8 @@ rect.held, rect.combo.held {
 </text>
 </g>
 <g class="combo combopos-4">
-<rect rx="6" ry="6" x="154" y="130" width="28" height="26" class="combo"/>
-<text x="168" y="144" class="combo tap">Alt+S</text>
+<rect rx="6" ry="6" x="98" y="201" width="28" height="26" class="combo"/>
+<text x="112" y="214" class="combo tap">Alt+S</text>
 </g>
 <g class="combo combopos-5">
 <rect rx="6" ry="6" x="210" y="186" width="28" height="26" class="combo"/>
@@ -1917,8 +1917,8 @@ rect.held, rect.combo.held {
 </text>
 </g>
 <g class="combo combopos-4">
-<rect rx="6" ry="6" x="154" y="130" width="28" height="26" class="combo"/>
-<text x="168" y="144" class="combo tap">Alt+S</text>
+<rect rx="6" ry="6" x="98" y="201" width="28" height="26" class="combo"/>
+<text x="112" y="214" class="combo tap">Alt+S</text>
 </g>
 <g class="combo combopos-5">
 <rect rx="6" ry="6" x="210" y="186" width="28" height="26" class="combo"/>
@@ -2358,8 +2358,8 @@ rect.held, rect.combo.held {
 </text>
 </g>
 <g class="combo combopos-4">
-<rect rx="6" ry="6" x="154" y="130" width="28" height="26" class="combo"/>
-<text x="168" y="144" class="combo tap">Alt+S</text>
+<rect rx="6" ry="6" x="98" y="201" width="28" height="26" class="combo"/>
+<text x="112" y="214" class="combo tap">Alt+S</text>
 </g>
 <g class="combo combopos-5">
 <rect rx="6" ry="6" x="210" y="186" width="28" height="26" class="combo"/>

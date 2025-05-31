@@ -334,7 +334,7 @@ combos:
   k: Alt+Ctl+H
 - p: [34, 33]
   k: Alt+Ctl+L
-- p: [28, 29]
+- p: [40, 41]
   k: Alt+S
 - p: [43, 42]
   k: Meh+S
