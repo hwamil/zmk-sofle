@@ -267,33 +267,33 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - RGB SPI
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB BRI
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: Sft+7, s: Sft+&}
   - {t: Sft+8, s: Sft+*}
   - {t: Sft+9, s: Sft+(}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB SPD
   - {t: '$$mdi:transfer$$', type: trans}
   - KP 7
   - KP 8
   - KP 9
   - KP PLUS
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB BRD
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: Sft+4, s: Sft+$}
   - {t: Sft+5, s: Sft+%}
   - {t: Sft+6, s: Sft+^}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB EFR
   - HOME
   - KP 4
   - KP 5
@@ -306,7 +306,7 @@ layers:
   - {t: Sft+2, s: Sft+@}
   - {t: Sft+3, s: Sft+#}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB EFF
   - KP DIVIDE
   - KP 1
   - KP 2
@@ -319,7 +319,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: Sft+0, s: Sft+)}
   - {t: Sft+\, s: Sft+|}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB TOG
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
