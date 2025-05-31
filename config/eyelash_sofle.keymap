@@ -58,7 +58,7 @@
 
         bandforth {
             bindings = <&kp LA(S)>;
-            key-positions = <41 42>;
+            key-positions = <28 29>;
         };
 
         wincap {
