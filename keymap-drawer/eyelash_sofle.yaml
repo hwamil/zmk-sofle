@@ -13,7 +13,7 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - AC SAVE
+  - {t: colemak, h: toggle}
   - {t: '$$mdi:keyboard-tab$$', h: 'Alt+Ctl+$$mdi:apple-keyboard-shift$$'}
   - Q
   - W
@@ -58,7 +58,7 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-space$$', h: navmed}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - Ctl+Gui+S
   - {t: '$$mdi:backspace-reverse-outline$$', h: '4'}
   - {t: '$$mdi:backspace$$', type: backspace}
