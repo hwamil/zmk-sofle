@@ -346,7 +346,7 @@ combos:
   k: Hyper+S
 - p: [41, 42]
   k: {t: qwerty, h: toggle}
-- p: [50, 51]
+- p: [50, 49]
   k: {t: game, h: toggle}
 - p: [30, 34]
   k: '&paren'
