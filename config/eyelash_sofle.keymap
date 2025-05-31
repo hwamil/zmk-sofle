@@ -15,7 +15,10 @@
     delay-ms = <0>;                   // 0
 };
 
-&mmv { trigger-period-ms = <16>; };
+&mmv {
+    trigger-period-ms = <16>;
+    time-to-max-speed-ms = <3000>;
+};
 
 / {
     scroll_encoder: scroll_encoder {
