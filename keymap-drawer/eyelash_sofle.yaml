@@ -14,7 +14,7 @@ layers:
   - {t: '9', s: (}
   - {t: '0', s: )}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:keyboard-tab$$', s: '$$mdi:minus-circle-outline$$'}
+  - {t: '$$mdi:keyboard-tab$$', h: 'Alt+Ctl+$$mdi:apple-keyboard-shift$$'}
   - Q
   - W
   - F
@@ -27,7 +27,7 @@ layers:
   - Y
   - {t: ;, s: ':'}
   - {t: \, s: '|'}
-  - {t: '$$mdi:apple-keyboard-caps$$', s: '$$mdi:minus-circle-outline$$'}
+  - {t: '$$mdi:apple-keyboard-caps$$', h: 'Alt+Ctl+Gui+$$mdi:apple-keyboard-shift$$'}
   - A
   - R
   - S
@@ -200,3 +200,7 @@ combos:
   k: $$mdi:keyboard-esc$$
 - p: [22, 23]
   k: RETURN
+- p: [30, 31]
+  k: Alt+Ctl+H
+- p: [34, 33]
+  k: Alt+Ctl+L
