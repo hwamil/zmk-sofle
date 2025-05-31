@@ -76,12 +76,22 @@
 &kp GRAVE   &kp N1     &kp N2        &kp N3    &kp N4       &kp N5       &kp UP_ARROW     &kp N6     &kp N7    &kp N8     &kp N9    &kp N0    &kp BACKSPACE
 &meh        &kp Q      &kp W         &kp F     &kp P        &kp B        &kp DOWN_ARROW   &kp J      &kp L     &kp U      &kp Y     &kp SEMI  &kp BSLH
 &hyper      &kp A      &kp R         &kp S     &kp T        &kp G        &kp LEFT_ARROW   &kp M      &kp N     &kp E      &kp I     &kp O     &kp APOS
-&kp LSHFT   &kp Z      &kp X         &kp C     &kp D        &kp V        &kp RIGHT_ARROW  &kp K      &kp H     &kp COMMA  &kp DOT   &kp FSLH  &kp FSLH
-&kp C_MUTE  &kp LCTRL  &kp LEFT_GUI  &kp LALT  &lt 1 SPACE  &kp LSHFT    &kp ENTER        &kp SPACE  &kp BSPC  &kp LCTRL  &kp RGUI  &kp RALT
+&kp LSHFT   &kp Z      &kp X         &kp C     &kp D        &kp V        &kp RIGHT_ARROW  &kp K      &kp H     &kp COMMA  &kp DOT   &kp FSLH  &kp LEFT_SHIFT
+&kp C_MUTE  &kp LCTRL  &kp LEFT_GUI  &kp LALT  &lt 2 SPACE  &kp LSHFT    &kp ENTER        &kp SPACE  &kp BSPC  &kp LCTRL  &kp RGUI  &kp RALT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
             display-name = "colemak";
+        };
+
+        layer_2 {
+            bindings = <
+&kp GRAVE  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5    &kp N6  &kp N6  &kp N7  &kp N8     &kp N9   &kp N0    &trans
+&trans     &kp Q   &kp W   &kp E   &kp R   &kp T     &kp Y   &kp Y   &kp U   &kp I      &kp O    &kp P     &trans
+&trans     &kp A   &kp S   &kp D   &kp F   &kp G     &trans  &kp H   &kp J   &kp K      &kp L    &kp SEMI  &kp APOS
+&kp LSHFT  &kp Z   &kp X   &kp C   &kp V   &kp B     &kp N   &kp N   &kp M   &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
+&trans     &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans     &trans   &trans
+            >;
         };
 
         navmed {
