@@ -186,11 +186,11 @@
 
         navmed {
             bindings = <
-&trans      &kp F1        &kp F2        &kp F3            &kp F4          &kp F5      &mmv MOVE_UP     &kp F6                &kp F7          &kp F8           &kp F9        &kp F10     &kp F11
-&trans      &trans        &mkp LCLK     &mkp MCLK         &mkp RCLK       &mkp MB4    &mmv MOVE_DOWN   &kp C_BRIGHTNESS_INC  &kp C_PREVIOUS  &kp C_VOLUME_UP  &kp C_VOL_DN  &kp C_NEXT  &kp F12
-&trans      &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &mkp MB5    &mmv MOVE_LEFT   &none                 &kp LEFT        &kp DOWN         &kp UP_ARROW  &kp RIGHT   &trans
-&trans      &trans        &trans        &trans            &trans          &trans      &mmv MOVE_RIGHT  &kp C_BRIGHTNESS_DEC  &kp HOME        &kp PAGE_DOWN    &kp PAGE_UP   &kp END     &trans
-&kp C_MUTE  &trans        &trans        &trans            &trans          &trans      &mkp LCLK        &trans                &trans          &trans           &trans        &trans
+&trans      &kp F1        &kp F2        &kp F3            &kp F4          &kp F5        &mmv MOVE_UP     &kp F6                &kp F7          &kp F8           &kp F9        &kp F10     &kp F11
+&trans      &trans        &mkp LCLK     &mkp MCLK         &mkp RCLK       &mkp MB4      &mmv MOVE_DOWN   &kp C_BRIGHTNESS_INC  &kp C_PREVIOUS  &kp C_VOLUME_UP  &kp C_VOL_DN  &kp C_NEXT  &kp F12
+&trans      &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &mkp MB5      &mmv MOVE_LEFT   &none                 &kp LEFT        &kp DOWN         &kp UP_ARROW  &kp RIGHT   &trans
+&trans      &kp K_UNDO    &kp K_CUT     &kp K_COPY        &kp K_PASTE     &kp K_REDO    &mmv MOVE_RIGHT  &kp C_BRIGHTNESS_DEC  &kp HOME        &kp PAGE_DOWN    &kp PAGE_UP   &kp END     &trans
+&kp C_MUTE  &trans        &trans        &trans            &trans          &trans        &mkp LCLK        &trans                &trans          &trans           &trans        &trans
             >;
 
             display-name = "navmed";
