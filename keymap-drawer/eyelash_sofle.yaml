@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: eyelash_sofle}
 layers:
   LAYER0:
-  - $$mdi:keyboard-esc$$
+  - {t: '`', s: '~'}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
@@ -57,7 +57,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
-  - layer1
+  - {t: '$$mdi:keyboard-space$$', h: layer1}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
@@ -260,3 +260,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+combos:
+- p: [2, 3]
+  k: $$mdi:keyboard-esc$$
+- p: [9, 10]
+  k: RETURN
