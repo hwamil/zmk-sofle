@@ -33,6 +33,24 @@
         tap-ms = <100>;
     };
 
+    hyper: hyper {
+        compatible = "zmk,behavior-mod-morph";
+        label = "HYPER";
+        bindings = <&kp CAPSLOCK>, <&none>;
+
+        #binding-cells = <0>;
+        mods = <(MOD_LCTL|MOD_LSFT|MOD_LALT|MOD_LGUI)>;
+    };
+
+    meh: meh {
+        compatible = "zmk,behavior-mod-morph";
+        label = "MEH";
+        bindings = <&kp TAB>, <&none>;
+
+        #binding-cells = <0>;
+        mods = <(MOD_LCTL|MOD_LSFT|MOD_LALT)>;
+    };
+
     combos {
         compatible = "zmk,combos";
 
@@ -56,8 +74,8 @@
         colemak {
             bindings = <
 &kp GRAVE   &kp N1     &kp N2        &kp N3    &kp N4     &kp N5       &kp UP_ARROW     &kp N6     &kp N7    &kp N8     &kp N9    &kp N0    &kp BACKSPACE
-&kp TAB     &kp Q      &kp W         &kp F     &kp P      &kp B        &kp DOWN_ARROW   &kp J      &kp L     &kp U      &kp Y     &kp SEMI  &kp BSLH
-&kp CAPS    &kp A      &kp R         &kp S     &kp T      &kp G        &kp LEFT_ARROW   &kp M      &kp N     &kp E      &kp I     &kp O     &kp APOS
+&meh        &kp Q      &kp W         &kp F     &kp P      &kp B        &kp DOWN_ARROW   &kp J      &kp L     &kp U      &kp Y     &kp SEMI  &kp BSLH
+&hyper      &kp A      &kp R         &kp S     &kp T      &kp G        &kp LEFT_ARROW   &kp M      &kp N     &kp E      &kp I     &kp O     &kp APOS
 &kp LSHFT   &kp Z      &kp X         &kp C     &kp D      &kp V        &kp RIGHT_ARROW  &kp K      &kp H     &kp COMMA  &kp DOT   &kp FSLH  &kp FSLH
 &kp C_MUTE  &kp LCTRL  &kp LEFT_GUI  &kp LALT  &kp SPACE  &kp LSHFT    &kp ENTER        &kp SPACE  &kp BSPC  &kp LCTRL  &kp RGUI  &kp RALT
             >;
