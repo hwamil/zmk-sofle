@@ -637,7 +637,7 @@ rect.held, rect.combo.held {
 <g transform="translate(784, 259)" class="key keypos-63">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:apple-keyboard-option"/>
+<text x="0" y="-4" class="key tap">&amp;lang</text>
 </g>
 <g class="combo combopos-0">
 <rect rx="6" ry="6" x="154" y="74" width="28" height="26" class="combo"/>
@@ -682,6 +682,18 @@ rect.held, rect.combo.held {
 <text x="700" y="200" class="combo tap">
 <tspan x="700" dy="-0.6em">Hyper+</tspan><tspan x="700" dy="1.2em">S</tspan>
 </text>
+</g>
+<g class="combo combopos-9">
+<rect rx="6" ry="6" x="154" y="186" width="28" height="26" class="combo"/>
+<a href="#qwerty">
+<text x="168" y="200" class="combo tap layer-activator">qwerty</text>
+</a><text x="168" y="210" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-10">
+<rect rx="6" ry="6" x="854" y="211" width="28" height="26" class="combo"/>
+<a href="#game">
+<text x="868" y="224" class="combo tap layer-activator">game</text>
+</a><text x="868" y="235" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
@@ -1068,6 +1080,18 @@ rect.held, rect.combo.held {
 <tspan x="700" dy="-0.6em">Hyper+</tspan><tspan x="700" dy="1.2em">S</tspan>
 </text>
 </g>
+<g class="combo combopos-9">
+<rect rx="6" ry="6" x="154" y="186" width="28" height="26" class="combo"/>
+<a href="#qwerty">
+<text x="168" y="200" class="combo tap layer-activator">qwerty</text>
+</a><text x="168" y="210" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-10">
+<rect rx="6" ry="6" x="854" y="211" width="28" height="26" class="combo"/>
+<a href="#game">
+<text x="868" y="224" class="combo tap layer-activator">game</text>
+</a><text x="868" y="235" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 776)" class="layer-game">
@@ -1453,6 +1477,18 @@ rect.held, rect.combo.held {
 <tspan x="700" dy="-0.6em">Hyper+</tspan><tspan x="700" dy="1.2em">S</tspan>
 </text>
 </g>
+<g class="combo combopos-9">
+<rect rx="6" ry="6" x="154" y="186" width="28" height="26" class="combo"/>
+<a href="#qwerty">
+<text x="168" y="200" class="combo tap layer-activator">qwerty</text>
+</a><text x="168" y="210" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-10">
+<rect rx="6" ry="6" x="854" y="211" width="28" height="26" class="combo"/>
+<a href="#game">
+<text x="868" y="224" class="combo tap layer-activator">game</text>
+</a><text x="868" y="235" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1165)" class="layer-navmed">
@@ -1828,6 +1864,18 @@ rect.held, rect.combo.held {
 <text x="700" y="200" class="combo tap">
 <tspan x="700" dy="-0.6em">Hyper+</tspan><tspan x="700" dy="1.2em">S</tspan>
 </text>
+</g>
+<g class="combo combopos-9">
+<rect rx="6" ry="6" x="154" y="186" width="28" height="26" class="combo"/>
+<a href="#qwerty">
+<text x="168" y="200" class="combo tap layer-activator">qwerty</text>
+</a><text x="168" y="210" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-10">
+<rect rx="6" ry="6" x="854" y="211" width="28" height="26" class="combo"/>
+<a href="#game">
+<text x="868" y="224" class="combo tap layer-activator">game</text>
+</a><text x="868" y="235" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
