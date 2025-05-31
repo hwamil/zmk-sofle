@@ -143,11 +143,11 @@
 
         colemak {
             bindings = <
-&kp GRAVE                        &kp N1     &kp N2        &kp N3    &kp N4       &kp N5       &kp UP_ARROW     &kp N6        &kp N7    &kp N8     &kp N9    &kp N0    &kp C_AC_SAVE
-&mt LA(LC(LEFT_SHIFT)) TAB       &kp Q      &kp W         &kp F     &kp P        &kp B        &kp DOWN_ARROW   &kp J         &kp L     &kp U      &kp Y     &kp SEMI  &kp BSLH
-&mt LA(LC(LG(LEFT_SHIFT))) CAPS  &kp A      &kp R         &kp S     &kp T        &kp G        &kp LEFT_ARROW   &kp M         &kp N     &kp E      &kp I     &kp O     &kp APOS
-&kp LEFT_SHIFT                   &kp Z      &kp X         &kp C     &kp D        &kp V        &kp RIGHT_ARROW  &kp K         &kp H     &kp COMMA  &kp DOT   &kp FSLH  &kp LEFT_SHIFT
-&kp C_MUTE                       &kp LCTRL  &kp LEFT_GUI  &kp LALT  &lt 3 SPACE  &kp LSHFT    &kp ENTER        &lt 4 DELETE  &kp BSPC  &kp LCTRL  &kp RGUI  &lang
+&kp GRAVE                        &kp N1     &kp N2        &kp N3    &kp N4       &kp N5       &kp UP_ARROW     &kp N6        &kp N7    &kp N8        &kp N9    &kp N0            &kp C_AC_SAVE
+&mt LA(LC(LEFT_SHIFT)) TAB       &kp Q      &kp W         &kp F     &kp P        &kp B        &kp DOWN_ARROW   &kp J         &kp L     &kp U         &kp Y     &kp SEMI          &kp BSLH
+&mt LA(LC(LG(LEFT_SHIFT))) CAPS  &kp A      &kp R         &kp S     &kp T        &kp G        &kp LEFT_ARROW   &kp M         &kp N     &kp E         &kp I     &kp O             &kp APOS
+&kp LEFT_SHIFT                   &kp Z      &kp X         &kp C     &kp D        &kp V        &kp RIGHT_ARROW  &kp K         &kp H     &kp COMMA     &kp DOT   &kp FSLH          &kp LEFT_SHIFT
+&kp C_MUTE                       &kp LCTRL  &kp LEFT_GUI  &kp LALT  &lt 3 SPACE  &kp LSHFT    &kp ENTER        &lt 4 DELETE  &kp BSPC  &kp LEFT_ALT  &kp RGUI  &kp LEFT_CONTROL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -164,7 +164,7 @@
             >;
 
             label = "qwerty";
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP K_VOLUME_DOWN>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
         };
 
         game {
@@ -177,7 +177,7 @@
 &trans     &trans  &trans  &kp LEFT_ALT  &kp SPACE  &kp LEFT_CONTROL    &trans  &trans  &trans  &trans     &trans   &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP K_VOLUME_DOWN>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
         };
 
         navmed {
@@ -195,11 +195,11 @@
 
         layer_4 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans      &trans      &trans      &trans               &trans  &trans         &trans           &trans           &trans           &trans           &trans
+&trans  &trans  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &trans               &trans  &trans         &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_PLUS      &trans
+&trans  &trans  &kp LS(N4)  &kp LS(N5)  &kp LS(N6)  &trans               &trans  &kp HOME       &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MINUS     &trans
+&trans  &trans  &kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &trans               &trans  &kp KP_DIVIDE  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_MULTIPLY  &trans
+&trans  &trans  &trans      &trans      &kp LS(N0)  &kp LS(BACKSLASH)    &trans  &trans         &trans           &trans           &trans           &kp LS(KP_DOT)
             >;
         };
     };
