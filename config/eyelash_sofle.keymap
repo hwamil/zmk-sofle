@@ -56,12 +56,12 @@
 
         escape {
             bindings = <&kp ESCAPE>;
-            key-positions = <2 3>;
+            key-positions = <15 16>;
         };
 
         enter {
             bindings = <&kp RETURN>;
-            key-positions = <9 10>;
+            key-positions = <22 23>;
         };
     };
 
