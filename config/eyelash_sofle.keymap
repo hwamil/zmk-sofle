@@ -73,11 +73,11 @@
 
         colemak {
             bindings = <
-&kp GRAVE   &kp N1     &kp N2        &kp N3    &kp N4     &kp N5       &kp UP_ARROW     &kp N6     &kp N7    &kp N8     &kp N9    &kp N0    &kp BACKSPACE
-&meh        &kp Q      &kp W         &kp F     &kp P      &kp B        &kp DOWN_ARROW   &kp J      &kp L     &kp U      &kp Y     &kp SEMI  &kp BSLH
-&hyper      &kp A      &kp R         &kp S     &kp T      &kp G        &kp LEFT_ARROW   &kp M      &kp N     &kp E      &kp I     &kp O     &kp APOS
-&kp LSHFT   &kp Z      &kp X         &kp C     &kp D      &kp V        &kp RIGHT_ARROW  &kp K      &kp H     &kp COMMA  &kp DOT   &kp FSLH  &kp FSLH
-&kp C_MUTE  &kp LCTRL  &kp LEFT_GUI  &kp LALT  &kp SPACE  &kp LSHFT    &kp ENTER        &kp SPACE  &kp BSPC  &kp LCTRL  &kp RGUI  &kp RALT
+&kp GRAVE   &kp N1     &kp N2        &kp N3    &kp N4       &kp N5       &kp UP_ARROW     &kp N6     &kp N7    &kp N8     &kp N9    &kp N0    &kp BACKSPACE
+&meh        &kp Q      &kp W         &kp F     &kp P        &kp B        &kp DOWN_ARROW   &kp J      &kp L     &kp U      &kp Y     &kp SEMI  &kp BSLH
+&hyper      &kp A      &kp R         &kp S     &kp T        &kp G        &kp LEFT_ARROW   &kp M      &kp N     &kp E      &kp I     &kp O     &kp APOS
+&kp LSHFT   &kp Z      &kp X         &kp C     &kp D        &kp V        &kp RIGHT_ARROW  &kp K      &kp H     &kp COMMA  &kp DOT   &kp FSLH  &kp FSLH
+&kp C_MUTE  &kp LCTRL  &kp LEFT_GUI  &kp LALT  &lt 1 SPACE  &kp LSHFT    &kp ENTER        &kp SPACE  &kp BSPC  &kp LCTRL  &kp RGUI  &kp RALT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
