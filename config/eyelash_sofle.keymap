@@ -200,11 +200,11 @@
 
         layer_4 {
             bindings = <
-&trans           &trans  &trans      &trans      &trans      &trans               &rgb_ug RGB_SPI  &trans  &trans     &trans            &trans        &trans        &trans
-&rgb_ug RGB_BRI  &trans  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &trans               &rgb_ug RGB_SPD  &trans  &trans     &trans            &trans        &trans        &trans
-&rgb_ug RGB_BRD  &trans  &kp LS(N4)  &kp LS(N5)  &kp LS(N6)  &kp MINUS            &rgb_ug RGB_EFR  &trans  &kp LSHFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_GUI  &trans
-&trans           &trans  &kp N1      &kp LS(N2)  &kp LS(N3)  &kp EQUAL            &rgb_ug RGB_EFF  &trans  &trans     &trans            &trans        &trans        &trans
-&trans           &trans  &trans      &trans      &kp LS(N0)  &kp LS(BACKSLASH)    &rgb_ug RGB_TOG  &trans  &trans     &trans            &trans        &trans
+&trans           &trans     &trans      &trans      &trans      &trans               &rgb_ug RGB_SPI  &trans  &trans     &trans            &trans        &trans        &trans
+&rgb_ug RGB_BRI  &kp UNDER  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &kp MINUS            &rgb_ug RGB_SPD  &trans  &trans     &trans            &trans        &trans        &trans
+&rgb_ug RGB_BRD  &kp EQUAL  &kp LS(N4)  &kp LS(N5)  &kp LS(N6)  &kp PLUS             &rgb_ug RGB_EFR  &trans  &kp LSHFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_GUI  &trans
+&trans           &trans     &kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &trans               &rgb_ug RGB_EFF  &trans  &trans     &trans            &trans        &trans        &trans
+&trans           &trans     &trans      &trans      &kp LS(N0)  &kp LS(BACKSLASH)    &rgb_ug RGB_TOG  &trans  &trans     &trans            &trans        &trans
             >;
         };
     };
