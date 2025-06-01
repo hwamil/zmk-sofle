@@ -218,7 +218,7 @@ layers:
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - $$mdi:brightness-5$$
   - PREVIOUS
-  - $$mdi:volume-high$$
+  - $$mdi:volume-low$$
   - $$mdi:volume-low$$
   - $$mdi:skip-next$$
   - {t: '=', s: +}
