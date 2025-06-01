@@ -200,11 +200,11 @@
 
         colemak {
             bindings = <
-&kp GRAVE                        &kp NUMBER_1  &kp N2        &kp N3    &kp N4       &kp N5       &kp UP_ARROW     &kp N6      &kp N7           &kp N8        &kp N9    &kp N0            &to 0
-&mt LA(LC(LEFT_SHIFT)) TAB       &kp Q         &kp W         &kp F     &kp P        &kp B        &kp DOWN_ARROW   &kp J       &kp L            &kp U         &kp Y     &kp SEMI          &kp BSLH
-&mt LA(LC(LG(LEFT_SHIFT))) CAPS  &kp A         &kp R         &kp S     &kp T        &kp G        &kp LEFT_ARROW   &kp M       &kp N            &kp E         &kp I     &kp O             &kp APOS
-&kp LEFT_SHIFT                   &kp Z         &kp X         &kp C     &kp D        &kp V        &kp RIGHT_ARROW  &kp K       &kp H            &kp COMMA     &kp DOT   &kp FSLH          &kp LEFT_SHIFT
-&kp C_MUTE                       &kp LCTRL     &kp LEFT_GUI  &kp LALT  &lt 3 SPACE  &sk LSHFT    &kp LG(LS(S))    &kp DELETE  &lt 4 BACKSPACE  &kp LEFT_ALT  &kp RGUI  &kp LEFT_CONTROL
+&kp GRAVE                        &kp NUMBER_1        &kp N2              &kp N3                  &kp N4                  &kp N5       &kp UP_ARROW     &kp N6      &kp N7                  &kp N8                  &kp N9              &kp N0              &to 0
+&mt LA(LC(LEFT_SHIFT)) TAB       &kp Q               &kp W               &kp F                   &kp P                   &kp B        &kp DOWN_ARROW   &kp J       &kp L                   &kp U                   &kp Y               &kp SEMI            &kp BSLH
+&mt LA(LC(LG(LEFT_SHIFT))) CAPS  &hrmgui LEFT_GUI A  &hrmalt LEFT_ALT R  &hrmctl LEFT_CONTROL S  &hrmshift LEFT_SHIFT T  &kp G        &kp LEFT_ARROW   &kp M       &hrmshift LEFT_SHIFT N  &hrmctl LEFT_CONTROL E  &hrmalt LEFT_ALT I  &hrmgui LEFT_GUI O  &kp APOS
+&kp LEFT_SHIFT                   &kp Z               &kp X               &kp C                   &kp D                   &kp V        &kp RIGHT_ARROW  &kp K       &kp H                   &kp COMMA               &kp DOT             &kp FSLH            &kp LEFT_SHIFT
+&kp C_MUTE                       &kp LCTRL           &kp LEFT_GUI        &kp LALT                &lt 3 SPACE             &sk LSHFT    &kp LG(LS(S))    &kp DELETE  &lt 4 BACKSPACE         &kp LEFT_ALT            &kp RGUI            &kp LEFT_CONTROL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -213,11 +213,11 @@
 
         qwerty {
             bindings = <
-&trans  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5    &trans  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0    &trans
-&trans  &kp Q   &kp W   &kp E   &kp R   &kp T     &trans  &kp Y   &kp U   &kp I   &kp O   &kp P     &trans
-&trans  &kp A   &kp S   &kp D   &kp F   &kp G     &trans  &kp H   &kp J   &kp K   &kp L   &kp SEMI  &trans
-&trans  &kp Z   &kp X   &kp C   &kp V   &kp B     &trans  &kp N   &kp M   &trans  &trans  &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp N1              &kp N2              &kp N3                  &kp N4                  &kp N5    &trans  &kp N6  &kp N7                  &kp N8                  &kp N9              &kp N0                 &trans
+&trans  &kp Q               &kp W               &kp E                   &kp R                   &kp T     &trans  &kp Y   &kp U                   &kp I                   &kp O               &kp P                  &trans
+&trans  &hrmgui LEFT_GUI A  &hrmalt LEFT_ALT S  &hrmctl LEFT_CONTROL D  &hrmshift LEFT_SHIFT F  &kp G     &trans  &kp H   &hrmshift LEFT_SHIFT J  &hrmctl LEFT_CONTROL K  &hrmalt LEFT_ALT L  &hrmgui LEFT_GUI SEMI  &trans
+&trans  &kp Z               &kp X               &kp C                   &kp V                   &kp B     &trans  &kp N   &kp M                   &trans                  &trans              &trans                 &trans
+&trans  &trans              &trans              &trans                  &trans                  &trans    &trans  &trans  &trans                  &trans                  &trans              &trans
             >;
 
             label = "qwerty";
