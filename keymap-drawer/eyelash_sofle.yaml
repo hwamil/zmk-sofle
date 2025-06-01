@@ -292,7 +292,7 @@ layers:
   - {t: Sft+4, s: Sft+$}
   - {t: Sft+5, s: Sft+%}
   - {t: Sft+6, s: Sft+^}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '-', s: _}
   - RGB EFR
   - HOME
   - KP 4
@@ -305,7 +305,7 @@ layers:
   - {t: Sft+1, s: Sft+!}
   - {t: Sft+2, s: Sft+@}
   - {t: Sft+3, s: Sft+#}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '=', s: +}
   - RGB EFF
   - KP DIVIDE
   - KP 1
