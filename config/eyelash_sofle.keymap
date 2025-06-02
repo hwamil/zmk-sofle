@@ -242,7 +242,6 @@
             bindings =
                 <&macro_press>,
                 <&kp LEFT_SHIFT>,
-                <&macro_wait_time 100>,
                 <&macro_tap>,
                 <&kp N9 &kp N0>,
                 <&macro_release>,
@@ -263,16 +262,14 @@
         ko_win: ko_win {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1>, <&macro_wait_time 100>, <&kp RIGHT_ALT>;
-
+            bindings = <&to 1 &kp RIGHT_ALT>;
             label = "KO_WIN";
         };
 
         en_win: en_win {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 0>, <&macro_wait_time 100>, <&kp RIGHT_ALT>;
-
+            bindings = <&to 0 &kp RIGHT_ALT>;
             label = "en_win";
         };
 
@@ -283,7 +280,6 @@
                 <&to 1>,
                 <&macro_press>,
                 <&kp LEFT_CONTROL &kp LEFT_ALT>,
-                <&macro_wait_time 100>,
                 <&macro_tap>,
                 <&kp SPACE>,
                 <&macro_release>,
@@ -299,7 +295,6 @@
                 <&to 0>,
                 <&macro_press>,
                 <&kp LEFT_CONTROL &kp LEFT_ALT>,
-                <&macro_wait_time 100>,
                 <&macro_tap>,
                 <&kp SPACE>,
                 <&macro_release>,
@@ -314,7 +309,6 @@
             bindings =
                 <&macro_press>,
                 <&kp LEFT_SHIFT>,
-                <&macro_wait_time 100>,
                 <&macro_tap>,
                 <&kp LEFT_BRACKET &kp RIGHT_BRACKET>,
                 <&macro_release>,
