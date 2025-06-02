@@ -199,28 +199,48 @@
         korean: test {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &kp RIGHT_ALT>;
+            bindings = <&to 1>, <&macro_wait_time 100>, <&kp RIGHT_ALT>;
+
             label = "TEST";
         };
 
         english: english {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 0 &kp RIGHT_ALT>;
+            bindings = <&to 0>, <&macro_wait_time 100>, <&kp RIGHT_ALT>;
+
             label = "ENGLISH";
         };
 
         ko_mac: ko_mac {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &kp LA(LC(SPACE))>;
+            bindings =
+                <&to 1>,
+                <&macro_wait_time 100>,
+                <&macro_press>,
+                <&kp LEFT_CONTROL &kp LEFT_ALT>,
+                <&macro_tap>,
+                <&kp SPACE>,
+                <&macro_release>,
+                <&kp LEFT_CONTROL &kp LEFT_ALT>;
+
             label = "KO_MAC";
         };
 
         en_mac: en_mac {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 0 &kp LA(LC(SPACE))>;
+            bindings =
+                <&to 0>,
+                <&macro_wait_time 100>,
+                <&macro_press>,
+                <&kp LEFT_CONTROL &kp LEFT_ALT>,
+                <&macro_tap>,
+                <&kp SPACE>,
+                <&macro_release>,
+                <&kp LEFT_CONTROL &kp LEFT_ALT>;
+
             label = "EN_MAC";
         };
     };
@@ -269,11 +289,11 @@
 
         navmed {
             bindings = <
-&bt BT_SEL 0  &kp F1        &kp F2        &kp F3            &kp F4          &kp F5        &mmv MOVE_UP     &kp F6                &kp F7          &kp F8         &kp F9        &kp F10     &kp MINUS
-&bt BT_SEL 1  &trans        &mkp LCLK     &mkp MCLK         &mkp RCLK       &mkp MB4      &mmv MOVE_DOWN   &kp C_BRIGHTNESS_INC  &kp C_PREVIOUS  &kp C_VOL_DN   &kp C_VOL_DN  &kp C_NEXT  &kp EQUAL
-&bt BT_SEL 2  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &mkp MB5      &mmv MOVE_LEFT   &caps_word            &kp LEFT        &kp DOWN       &kp UP_ARROW  &kp RIGHT   &trans
-&bt BT_CLR    &kp K_UNDO    &kp K_CUT     &kp K_COPY        &kp K_PASTE     &kp K_REDO    &mmv MOVE_RIGHT  &kp C_BRIGHTNESS_DEC  &kp HOME        &kp PAGE_DOWN  &kp PAGE_UP   &kp END     &trans
-&kp C_MUTE    &trans        &trans        &trans            &trans          &trans        &mkp LCLK        &trans                &kp C_PLAY      &kp F11        &kp F12       &trans
+&bt BT_SEL 0  &kp F1        &kp F2        &kp F3            &kp F4          &kp F5        &mmv MOVE_UP     &kp F6                &kp F7          &kp F8         &kp F9        &kp F10        &kp MINUS
+&bt BT_SEL 1  &trans        &mkp LCLK     &mkp MCLK         &mkp RCLK       &mkp MB4      &mmv MOVE_DOWN   &kp C_BRIGHTNESS_INC  &kp C_PREVIOUS  &kp C_VOL_DN   &kp C_VOL_DN  &kp C_NEXT     &kp EQUAL
+&bt BT_SEL 2  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &mkp MB5      &mmv MOVE_LEFT   &caps_word            &kp LEFT        &kp DOWN       &kp UP_ARROW  &kp RIGHT      &trans
+&bt BT_CLR    &kp K_UNDO    &kp K_CUT     &kp K_COPY        &kp K_PASTE     &kp K_REDO    &mmv MOVE_RIGHT  &kp C_BRIGHTNESS_DEC  &kp HOME        &kp PAGE_DOWN  &kp PAGE_UP   &kp END        &trans
+&kp C_MUTE    &trans        &trans        &trans            &trans          &trans        &mkp LCLK        &trans                &kp C_PLAY      &kp F11        &kp F12       &kp RIGHT_ALT
             >;
 
             display-name = "navmed";
