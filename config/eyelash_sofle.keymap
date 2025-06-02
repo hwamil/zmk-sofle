@@ -221,9 +221,9 @@
             #binding-cells = <0>;
             bindings =
                 <&to 1>,
-                <&macro_wait_time 100>,
                 <&macro_press>,
                 <&kp LEFT_CONTROL &kp LEFT_ALT>,
+                <&macro_wait_time 100>,
                 <&macro_tap>,
                 <&kp SPACE>,
                 <&macro_release>,
@@ -237,9 +237,9 @@
             #binding-cells = <0>;
             bindings =
                 <&to 0>,
-                <&macro_wait_time 100>,
                 <&macro_press>,
                 <&kp LEFT_CONTROL &kp LEFT_ALT>,
+                <&macro_wait_time 100>,
                 <&macro_tap>,
                 <&kp SPACE>,
                 <&macro_release>,
