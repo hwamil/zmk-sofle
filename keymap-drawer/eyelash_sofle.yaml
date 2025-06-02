@@ -355,6 +355,8 @@ combos:
 - p: [43, 47]
   k: '&curlies'
 - p: [48, 49]
-  k: '&lang'
-- p: [14, 15]
-  k: Alt+$$mdi:apple-keyboard-control$$
+  k: '&ko'
+- p: [31, 33]
+  k: $$mdi:alpha-w-box$$
+- p: [41, 42]
+  k: '&en'

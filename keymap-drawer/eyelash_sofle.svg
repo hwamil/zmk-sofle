@@ -736,11 +736,17 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-14">
 <rect rx="6" ry="6" x="742" y="186" width="28" height="26" class="combo"/>
-<text x="756" y="200" class="combo tap">&amp;lang</text>
+<text x="756" y="200" class="combo tap">&amp;ko</text>
 </g>
 <g class="combo combopos-15">
-<rect rx="6" ry="6" x="98" y="89" width="28" height="26" class="combo"/>
-<use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="103" y="93" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-control"/>
+<path d="M462,147 l-135,0" class="combo"/>
+<path d="M462,147 l135,0" class="combo"/>
+<rect rx="6" ry="6" x="448" y="134" width="28" height="26" class="combo"/>
+<use href="#mdi:alpha-w-box" xlink:href="#mdi:alpha-w-box" x="453" y="138" height="18" width="18.0" class="combo tap glyph mdi:alpha-w-box"/>
+</g>
+<g class="combo combopos-16">
+<rect rx="6" ry="6" x="154" y="186" width="28" height="26" class="combo"/>
+<text x="168" y="200" class="combo tap">&amp;en</text>
 </g>
 </g>
 </g>
@@ -1163,11 +1169,17 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-14">
 <rect rx="6" ry="6" x="742" y="186" width="28" height="26" class="combo"/>
-<text x="756" y="200" class="combo tap">&amp;lang</text>
+<text x="756" y="200" class="combo tap">&amp;ko</text>
 </g>
 <g class="combo combopos-15">
-<rect rx="6" ry="6" x="98" y="89" width="28" height="26" class="combo"/>
-<use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="103" y="93" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-control"/>
+<path d="M462,147 l-135,0" class="combo"/>
+<path d="M462,147 l135,0" class="combo"/>
+<rect rx="6" ry="6" x="448" y="134" width="28" height="26" class="combo"/>
+<use href="#mdi:alpha-w-box" xlink:href="#mdi:alpha-w-box" x="453" y="138" height="18" width="18.0" class="combo tap glyph mdi:alpha-w-box"/>
+</g>
+<g class="combo combopos-16">
+<rect rx="6" ry="6" x="154" y="186" width="28" height="26" class="combo"/>
+<text x="168" y="200" class="combo tap">&amp;en</text>
 </g>
 </g>
 </g>
@@ -1586,11 +1598,17 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-14">
 <rect rx="6" ry="6" x="742" y="186" width="28" height="26" class="combo"/>
-<text x="756" y="200" class="combo tap">&amp;lang</text>
+<text x="756" y="200" class="combo tap">&amp;ko</text>
 </g>
 <g class="combo combopos-15">
-<rect rx="6" ry="6" x="98" y="89" width="28" height="26" class="combo"/>
-<use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="103" y="93" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-control"/>
+<path d="M462,147 l-135,0" class="combo"/>
+<path d="M462,147 l135,0" class="combo"/>
+<rect rx="6" ry="6" x="448" y="134" width="28" height="26" class="combo"/>
+<use href="#mdi:alpha-w-box" xlink:href="#mdi:alpha-w-box" x="453" y="138" height="18" width="18.0" class="combo tap glyph mdi:alpha-w-box"/>
+</g>
+<g class="combo combopos-16">
+<rect rx="6" ry="6" x="154" y="186" width="28" height="26" class="combo"/>
+<text x="168" y="200" class="combo tap">&amp;en</text>
 </g>
 </g>
 </g>
@@ -2005,11 +2023,17 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-14">
 <rect rx="6" ry="6" x="742" y="186" width="28" height="26" class="combo"/>
-<text x="756" y="200" class="combo tap">&amp;lang</text>
+<text x="756" y="200" class="combo tap">&amp;ko</text>
 </g>
 <g class="combo combopos-15">
-<rect rx="6" ry="6" x="98" y="89" width="28" height="26" class="combo"/>
-<use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="103" y="93" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-control"/>
+<path d="M462,147 l-135,0" class="combo"/>
+<path d="M462,147 l135,0" class="combo"/>
+<rect rx="6" ry="6" x="448" y="134" width="28" height="26" class="combo"/>
+<use href="#mdi:alpha-w-box" xlink:href="#mdi:alpha-w-box" x="453" y="138" height="18" width="18.0" class="combo tap glyph mdi:alpha-w-box"/>
+</g>
+<g class="combo combopos-16">
+<rect rx="6" ry="6" x="154" y="186" width="28" height="26" class="combo"/>
+<text x="168" y="200" class="combo tap">&amp;en</text>
 </g>
 </g>
 </g>
@@ -2438,11 +2462,17 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-14">
 <rect rx="6" ry="6" x="742" y="186" width="28" height="26" class="combo"/>
-<text x="756" y="200" class="combo tap">&amp;lang</text>
+<text x="756" y="200" class="combo tap">&amp;ko</text>
 </g>
 <g class="combo combopos-15">
-<rect rx="6" ry="6" x="98" y="89" width="28" height="26" class="combo"/>
-<use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="103" y="93" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-control"/>
+<path d="M462,147 l-135,0" class="combo"/>
+<path d="M462,147 l135,0" class="combo"/>
+<rect rx="6" ry="6" x="448" y="134" width="28" height="26" class="combo"/>
+<use href="#mdi:alpha-w-box" xlink:href="#mdi:alpha-w-box" x="453" y="138" height="18" width="18.0" class="combo tap glyph mdi:alpha-w-box"/>
+</g>
+<g class="combo combopos-16">
+<rect rx="6" ry="6" x="154" y="186" width="28" height="26" class="combo"/>
+<text x="168" y="200" class="combo tap">&amp;en</text>
 </g>
 </g>
 </g>
