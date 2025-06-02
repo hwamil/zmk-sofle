@@ -244,9 +244,11 @@
                 <&kp LEFT_SHIFT>,
                 <&macro_wait_time 100>,
                 <&macro_tap>,
-                <&kp N9 &kp N0 &kp LEFT>,
+                <&kp N9 &kp N0>,
                 <&macro_release>,
-                <&kp LEFT_SHIFT>;
+                <&kp LEFT_SHIFT>,
+                <&macro_tap>,
+                <&kp LEFT>;
 
             label = "PAREN";
         };
@@ -314,9 +316,11 @@
                 <&kp LEFT_SHIFT>,
                 <&macro_wait_time 100>,
                 <&macro_tap>,
-                <&kp LEFT_BRACKET &kp RIGHT_BRACKET &kp LEFT>,
+                <&kp LEFT_BRACKET &kp RIGHT_BRACKET>,
                 <&macro_release>,
-                <&kp LEFT_SHIFT>;
+                <&kp LEFT_SHIFT>,
+                <&macro_tap>,
+                <&kp LEFT>;
 
             label = "BRACES";
         };
