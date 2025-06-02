@@ -344,8 +344,6 @@ combos:
   k: Meh+M
 - p: [47, 48]
   k: Hyper+S
-- p: [41, 42]
-  k: {t: qwerty, h: toggle}
 - p: [50, 49]
   k: {t: game, h: toggle}
 - p: [30, 34]
