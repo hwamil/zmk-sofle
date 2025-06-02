@@ -200,12 +200,12 @@
             label = "CURLIES";
         };
 
-        ko_win: test {
+        ko_win: ko_win {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&to 1>, <&macro_wait_time 100>, <&kp RIGHT_ALT>;
 
-            label = "TEST";
+            label = "KO_WIN";
         };
 
         en_win: en_win {
