@@ -328,6 +328,7 @@ layers:
 combos:
 - p: [15, 16]
   k: $$mdi:keyboard-esc$$
+  l: [colemak, qwerty]
 - p: [22, 23]
   k: RETURN
 - p: [30, 31]
