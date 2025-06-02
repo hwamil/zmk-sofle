@@ -134,11 +134,6 @@
             key-positions = <47 48>;
         };
 
-        qwerty {
-            bindings = <&tog 1>;
-            key-positions = <41 42>;
-        };
-
         game {
             bindings = <&tog 2>;
             key-positions = <50 49>;
