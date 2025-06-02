@@ -146,7 +146,7 @@
 
         escapeprl {
             bindings = <&kp LA(LCTRL)>;
-            key-positions = <1 2>;
+            key-positions = <14 15>;
         };
     };
 
