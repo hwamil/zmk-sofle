@@ -208,12 +208,12 @@
             label = "TEST";
         };
 
-        en_win: english {
+        en_win: en_win {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&to 0>, <&macro_wait_time 100>, <&kp RIGHT_ALT>;
 
-            label = "ENGLISH";
+            label = "en_win";
         };
 
         ko_mac: ko_mac {
