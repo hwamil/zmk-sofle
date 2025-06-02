@@ -36,6 +36,8 @@
         label = "KO";
         #binding-cells = <0>;
         bindings = <&ko_win>, <&ko_mac>;
+
+        tapping-term-ms = <250>;
     };
 
     hrmLeft: hrmLeft {
@@ -80,6 +82,8 @@
         label = "EN";
         #binding-cells = <0>;
         bindings = <&en_win>, <&en_mac>;
+
+        tapping-term-ms = <250>;
     };
 
     combos {
@@ -178,7 +182,7 @@
         paren: paren {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp LEFT>;
+            bindings = <&kp LS(N9) &kp LS(N0) &kp LEFT>;
             label = "PAREN";
         };
 
@@ -192,7 +196,7 @@
         curlies: curlies {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_BRACE &kp RIGHT_BRACE &kp LEFT>;
+            bindings = <&kp LS(LEFT_BRACKET) &kp LS(RIGHT_BRACKET) &kp LEFT>;
             label = "CURLIES";
         };
 
@@ -215,7 +219,13 @@
         ko_mac: ko_mac {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1>, <&macro_wait_time 100>, <&kp LA(LC(SPACE))>;
+            bindings =
+                <&to 1>,
+                <&macro_wait_time 100>,
+                <&macro_press>,
+                <&kp LEFT_CONTROL &kp LEFT_ALT>,
+                <&macro_tap>,
+                <&kp SPACE>;
 
             label = "KO_MAC";
         };
@@ -223,7 +233,13 @@
         en_mac: en_mac {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 0>, <&macro_wait_time 100>, <&kp LA(LC(SPACE))>;
+            bindings =
+                <&to 0>,
+                <&macro_wait_time 100>,
+                <&macro_press>,
+                <&kp LEFT_CONTROL &kp LEFT_ALT>,
+                <&macro_tap>,
+                <&kp SPACE>;
 
             label = "EN_MAC";
         };
