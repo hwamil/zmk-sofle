@@ -126,7 +126,7 @@
         compatible = "zmk,behavior-tap-dance";
         label = "redo";
         #binding-cells = <0>;
-        bindings = <&kp LCS(V)>, <&kp LGS(V)>;
+        bindings = <&kp LS(LC(Z))>, <&kp LS(LG(Z))>;
 
         tapping-term-ms = <250>;
     };
