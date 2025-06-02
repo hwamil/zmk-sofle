@@ -162,8 +162,8 @@
             timeout-ms = <75>;
         };
 
-        curlies {
-            bindings = <&curlies>;
+        braces {
+            bindings = <&braces>;
             key-positions = <43 47>;
             timeout-ms = <75>;
         };
@@ -194,7 +194,15 @@
         paren: paren {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(N9) &kp LS(N0) &kp LEFT>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_SHIFT>,
+                <&macro_wait_time 100>,
+                <&macro_tap>,
+                <&kp N9 &kp N0 &kp LEFT>,
+                <&macro_release>,
+                <&kp LEFT_SHIFT>;
+
             label = "PAREN";
         };
 
@@ -203,13 +211,6 @@
             #binding-cells = <0>;
             bindings = <&kp LEFT_BRACKET &kp RIGHT_BRACKET &kp LEFT_ARROW>;
             label = "BRACKET";
-        };
-
-        curlies: curlies {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(LEFT_BRACKET) &kp LS(RIGHT_BRACKET) &kp LEFT>;
-            label = "CURLIES";
         };
 
         ko_win: ko_win {
@@ -259,6 +260,21 @@
 
             label = "EN_MAC";
         };
+
+        braces: braces {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_SHIFT>,
+                <&macro_wait_time 100>,
+                <&macro_tap>,
+                <&kp LEFT_BRACKET &kp RIGHT_BRACKET &kp LEFT>,
+                <&macro_release>,
+                <&kp LEFT_SHIFT>;
+
+            label = "BRACES";
+        };
     };
 
     keymap {
@@ -293,11 +309,11 @@
         game {
             label = "game";
             bindings = <
-&trans     &kp N1  &kp N2  &kp N3        &kp N4     &kp N5              &trans  &kp N6  &kp N7  &kp N8     &kp N9   &kp N0    &trans
-&kp TAB    &kp Q   &kp W   &kp E         &kp R      &kp T               &trans  &kp Y   &kp U   &kp I      &kp O    &kp P     &trans
-&trans     &kp A   &kp S   &kp D         &kp F      &kp G               &trans  &kp H   &kp J   &kp K      &kp L    &kp SEMI  &kp APOS
-&kp LSHFT  &kp Z   &kp X   &kp C         &kp V      &kp B               &trans  &kp N   &kp M   &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
-&trans     &trans  &trans  &kp LEFT_ALT  &kp SPACE  &kp LEFT_CONTROL    &trans  &trans  &trans  &trans     &trans   &trans
+&kp ESCAPE        &kp N1  &kp N2  &kp N3        &kp N4     &kp N5              &trans  &kp N6  &kp N7  &kp N8     &kp N9   &kp N0    &trans
+&kp TAB           &kp Q   &kp W   &kp E         &kp R      &kp T               &trans  &kp Y   &kp U   &kp I      &kp O    &kp P     &trans
+&kp LEFT_SHIFT    &kp A   &kp S   &kp D         &kp F      &kp G               &trans  &kp H   &kp J   &kp K      &kp L    &kp SEMI  &kp APOS
+&kp LEFT_CONTROL  &kp Z   &kp X   &kp C         &kp V      &kp B               &trans  &kp N   &kp M   &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
+&trans            &trans  &trans  &kp LEFT_ALT  &kp SPACE  &kp LEFT_CONTROL    &trans  &trans  &trans  &trans     &trans   &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -316,13 +332,13 @@
             sensor-bindings = <&scroll_encoder>;
         };
 
-        layer_4 {
+        numrgb {
             bindings = <
-&trans           &trans     &trans      &trans      &trans      &trans               &rgb_ug RGB_SPI  &trans  &trans     &trans            &trans        &trans        &trans
-&rgb_ug RGB_BRI  &kp UNDER  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &kp MINUS            &rgb_ug RGB_SPD  &trans  &trans     &trans            &trans        &trans        &trans
-&rgb_ug RGB_BRD  &kp EQUAL  &kp LS(N4)  &kp LS(N5)  &kp LS(N6)  &kp PLUS             &rgb_ug RGB_EFR  &trans  &kp LSHFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_GUI  &trans
-&trans           &trans     &kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &trans               &rgb_ug RGB_EFF  &trans  &trans     &trans            &trans        &trans        &trans
-&trans           &trans     &trans      &trans      &kp LS(N0)  &kp LS(BACKSLASH)    &rgb_ug RGB_TOG  &trans  &trans     &trans            &trans        &trans
+&trans           &trans            &trans  &trans  &trans  &trans               &rgb_ug RGB_SPI  &trans  &trans     &trans            &trans        &trans        &trans
+&rgb_ug RGB_BRI  &kp LEFT_BRACKET  &kp N7  &kp N8  &kp N9  &kp RIGHT_BRACKET    &rgb_ug RGB_SPD  &trans  &trans     &trans            &trans        &trans        &trans
+&rgb_ug RGB_BRD  &kp SEMI          &kp N4  &kp N5  &kp N6  &kp MINUS            &rgb_ug RGB_EFR  &trans  &kp LSHFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_GUI  &trans
+&trans           &kp GRAVE         &kp N1  &kp N2  &kp N3  &kp EQUAL            &rgb_ug RGB_EFF  &trans  &trans     &trans            &trans        &trans        &trans
+&trans           &trans            &trans  &trans  &kp N0  &kp BACKSLASH        &rgb_ug RGB_TOG  &trans  &trans     &trans            &trans        &trans
             >;
         };
     };
