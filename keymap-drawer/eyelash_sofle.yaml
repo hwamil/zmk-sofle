@@ -356,5 +356,5 @@ combos:
   k: '&curlies'
 - p: [48, 49]
   k: '&lang'
-- p: [1, 2]
+- p: [14, 15]
   k: Alt+$$mdi:apple-keyboard-control$$
