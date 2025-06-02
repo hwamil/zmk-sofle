@@ -95,6 +95,42 @@
         tapping-term-ms = <250>;
     };
 
+    cut: cut {
+        compatible = "zmk,behavior-tap-dance";
+        label = "cut";
+        #binding-cells = <0>;
+        bindings = <&kp LC(X)>, <&kp LG(X)>;
+
+        tapping-term-ms = <250>;
+    };
+
+    copy: copy {
+        compatible = "zmk,behavior-tap-dance";
+        label = "copy";
+        #binding-cells = <0>;
+        bindings = <&kp LC(C)>, <&kp LG(C)>;
+
+        tapping-term-ms = <250>;
+    };
+
+    paste: paste {
+        compatible = "zmk,behavior-tap-dance";
+        label = "paste";
+        #binding-cells = <0>;
+        bindings = <&kp LC(V)>, <&kp LG(V)>;
+
+        tapping-term-ms = <250>;
+    };
+
+    redo: redo {
+        compatible = "zmk,behavior-tap-dance";
+        label = "redo";
+        #binding-cells = <0>;
+        bindings = <&kp LCS(V)>, <&kp LGS(V)>;
+
+        tapping-term-ms = <250>;
+    };
+
     combos {
         compatible = "zmk,combos";
 
