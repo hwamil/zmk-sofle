@@ -86,6 +86,15 @@
         tapping-term-ms = <250>;
     };
 
+    undo: undo {
+        compatible = "zmk,behavior-tap-dance";
+        label = "UNDO";
+        #binding-cells = <0>;
+        bindings = <&kp LC(Z)>, <&kp LG(Z)>;
+
+        tapping-term-ms = <250>;
+    };
+
     combos {
         compatible = "zmk,combos";
 
