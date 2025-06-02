@@ -35,7 +35,7 @@
         compatible = "zmk,behavior-tap-dance";
         label = "KO";
         #binding-cells = <0>;
-        bindings = <&korean>, <&english>;
+        bindings = <&ko_win>, <&ko_mac>;
     };
 
     hrmLeft: hrmLeft {
@@ -79,7 +79,7 @@
         compatible = "zmk,behavior-tap-dance";
         label = "EN";
         #binding-cells = <0>;
-        bindings = <&english>, <&en_mac>;
+        bindings = <&en_win>, <&en_mac>;
     };
 
     combos {
@@ -196,7 +196,7 @@
             label = "CURLIES";
         };
 
-        korean: test {
+        ko_win: test {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&to 1>, <&macro_wait_time 100>, <&kp RIGHT_ALT>;
@@ -204,7 +204,7 @@
             label = "TEST";
         };
 
-        english: english {
+        en_win: english {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&to 0>, <&macro_wait_time 100>, <&kp RIGHT_ALT>;
@@ -215,15 +215,7 @@
         ko_mac: ko_mac {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings =
-                <&to 1>,
-                <&macro_wait_time 100>,
-                <&macro_press>,
-                <&kp LEFT_CONTROL &kp LEFT_ALT>,
-                <&macro_tap>,
-                <&kp SPACE>,
-                <&macro_release>,
-                <&kp LEFT_CONTROL &kp LEFT_ALT>;
+            bindings = <&to 1>, <&macro_wait_time 100>, <&kp LA(LC(SPACE))>;
 
             label = "KO_MAC";
         };
@@ -231,15 +223,7 @@
         en_mac: en_mac {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings =
-                <&to 0>,
-                <&macro_wait_time 100>,
-                <&macro_press>,
-                <&kp LEFT_CONTROL &kp LEFT_ALT>,
-                <&macro_tap>,
-                <&kp SPACE>,
-                <&macro_release>,
-                <&kp LEFT_CONTROL &kp LEFT_ALT>;
+            bindings = <&to 0>, <&macro_wait_time 100>, <&kp LA(LC(SPACE))>;
 
             label = "EN_MAC";
         };
