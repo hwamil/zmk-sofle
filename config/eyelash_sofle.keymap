@@ -92,7 +92,7 @@
         #binding-cells = <0>;
         bindings = <&kp LC(Z)>, <&kp LG(Z)>;
 
-        tapping-term-ms = <250>;
+        tapping-term-ms = <300>;
     };
 
     cut: cut {
@@ -101,7 +101,7 @@
         #binding-cells = <0>;
         bindings = <&kp LC(X)>, <&kp LG(X)>;
 
-        tapping-term-ms = <250>;
+        tapping-term-ms = <300>;
     };
 
     copy: copy {
@@ -110,7 +110,7 @@
         #binding-cells = <0>;
         bindings = <&kp LC(C)>, <&kp LG(C)>;
 
-        tapping-term-ms = <250>;
+        tapping-term-ms = <300>;
     };
 
     paste: paste {
@@ -119,7 +119,7 @@
         #binding-cells = <0>;
         bindings = <&kp LC(V)>, <&kp LG(V)>;
 
-        tapping-term-ms = <250>;
+        tapping-term-ms = <300>;
     };
 
     redo: redo {
@@ -128,7 +128,7 @@
         #binding-cells = <0>;
         bindings = <&kp LS(LC(Z))>, <&kp LS(LG(Z))>;
 
-        tapping-term-ms = <250>;
+        tapping-term-ms = <300>;
     };
 
     combos {
