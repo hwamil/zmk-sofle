@@ -230,6 +230,11 @@
             key-positions = <41 42>;
             timeout-ms = <75>;
         };
+
+        del {
+            bindings = <&kp DELETE>;
+            key-positions = <14 15>;
+        };
     };
 
     behaviors {
