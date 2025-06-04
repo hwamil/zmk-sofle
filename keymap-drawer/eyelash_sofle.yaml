@@ -347,11 +347,11 @@ combos:
   k: Hyper+S
 - p: [50, 49]
   k: {t: game, h: toggle}
-- p: [30, 34]
-  k: '&paren'
 - p: [17, 21]
+  k: '&paren'
+- p: [16, 22]
   k: '&bracket'
-- p: [43, 47]
+- p: [15, 23]
   k: '&braces'
 - p: [48, 49]
   k: '&ko'
