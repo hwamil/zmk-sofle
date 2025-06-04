@@ -363,7 +363,7 @@
 &mt LA(LC(LEFT_SHIFT)) TAB       &kp Q                &kp W                &kp F                    &kp P                  &kp B            &kp DOWN_ARROW   &kp J       &kp L                   &kp U                     &kp Y                 &kp SEMI              &kp BSLH
 &mt LA(LC(LG(LEFT_SHIFT))) CAPS  &hrmLeft LEFT_GUI A  &hrmLeft LEFT_ALT R  &hrmLeft LEFT_CONTROL S  &hrmLeft LEFT_SHIFT T  &kp G            &kp LEFT_ARROW   &kp M       &hrmRight LEFT_SHIFT N  &hrmRight LEFT_CONTROL E  &hrmRight LEFT_ALT I  &hrmRight LEFT_GUI O  &kp APOS
 &kp LEFT_SHIFT                   &kp Z                &kp X                &kp C                    &kp D                  &kp V            &kp RIGHT_ARROW  &kp K       &kp H                   &kp COMMA                 &kp DOT               &kp FSLH              &kp LEFT_SHIFT
-&kp C_MUTE                       &kp LCTRL            &kp LEFT_GUI         &kp LALT                 &customlt 3 SPACE      &sticky LSHFT    &kp LG(LS(S))    &kp DELETE  &customlt 4 BACKSPACE   &kp LEFT_ALT              &kp RGUI              &kp LEFT_CONTROL
+&kp C_MUTE                       &sk LCTRL            &sk LEFT_GUI         &sk LALT                 &customlt 3 SPACE      &sticky LSHFT    &kp LG(LS(S))    &kp DELETE  &customlt 4 BACKSPACE   &sk LEFT_ALT              &sk RGUI              &sk LEFT_CONTROL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -400,7 +400,7 @@
             bindings = <
 &bt BT_SEL 0  &kp F1        &kp F2        &kp F3            &kp F4          &kp F5      &mmv MOVE_UP     &kp F6                &kp F7          &kp F8         &kp F9             &kp F10        &kp F11
 &bt BT_SEL 1  &trans        &mkp LCLK     &mkp MCLK         &mkp RCLK       &mkp MB4    &mmv MOVE_DOWN   &kp C_BRIGHTNESS_INC  &kp C_PREVIOUS  &kp C_VOL_DN   &kp C_VOL_DN       &kp C_NEXT     &kp EQUAL
-&bt BT_SEL 2  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &mkp MB5    &mmv MOVE_LEFT   &caps_word            &kp LEFT        &kp DOWN       &kp UP_ARROW       &kp RIGHT      &trans
+&bt BT_SEL 2  &sk LEFT_GUI  &sk LEFT_ALT  &sk LEFT_CONTROL  &sk LEFT_SHIFT  &mkp MB5    &mmv MOVE_LEFT   &caps_word            &kp LEFT        &kp DOWN       &kp UP_ARROW       &kp RIGHT      &trans
 &bt BT_CLR    &undo         &cut          &copy             &paste          &redo       &mmv MOVE_RIGHT  &kp C_BRIGHTNESS_DEC  &kp HOME        &kp PAGE_DOWN  &kp PAGE_UP        &kp END        &trans
 &kp C_MUTE    &trans        &trans        &trans            &trans          &trans      &mkp LCLK        &trans                &kp C_PLAY      &trans         &kp LA(LC(SPACE))  &kp RIGHT_ALT
             >;
@@ -413,7 +413,7 @@
             bindings = <
 &trans           &kp F1            &kp F2  &kp F3  &kp F4  &kp F5               &rgb_ug RGB_SPI  &kp F6  &kp F7     &kp F8            &kp F9        &kp F10       &kp F11
 &rgb_ug RGB_BRI  &kp LEFT_BRACKET  &kp N7  &kp N8  &kp N9  &kp RIGHT_BRACKET    &rgb_ug RGB_SPD  &trans  &trans     &trans            &trans        &trans        &kp F12
-&rgb_ug RGB_BRD  &kp SEMI          &kp N4  &kp N5  &kp N6  &kp MINUS            &rgb_ug RGB_EFR  &trans  &kp LSHFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_GUI  &trans
+&rgb_ug RGB_BRD  &kp SEMI          &kp N4  &kp N5  &kp N6  &kp MINUS            &rgb_ug RGB_EFR  &trans  &sk LSHFT  &sk LEFT_CONTROL  &sk LEFT_ALT  &sk LEFT_GUI  &trans
 &trans           &kp GRAVE         &kp N1  &kp N2  &kp N3  &kp EQUAL            &rgb_ug RGB_EFF  &trans  &trans     &trans            &trans        &trans        &trans
 &trans           &trans            &trans  &trans  &kp N0  &kp BACKSLASH        &rgb_ug RGB_TOG  &trans  &trans     &trans            &trans        &trans
             >;
