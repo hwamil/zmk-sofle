@@ -245,6 +245,8 @@
         del {
             bindings = <&kp DELETE>;
             key-positions = <14 15>;
+            timeout-ms = <75>;
+            require-prior-idle-ms = <200>;
         };
     };
 
