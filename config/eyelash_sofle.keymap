@@ -197,19 +197,19 @@
 
         paren {
             bindings = <&paren>;
-            key-positions = <30 34>;
-            timeout-ms = <50>;
+            key-positions = <17 21>;
+            timeout-ms = <75>;
         };
 
         brackets {
             bindings = <&bracket>;
-            key-positions = <17 21>;
+            key-positions = <16 22>;
             timeout-ms = <75>;
         };
 
         braces {
             bindings = <&braces>;
-            key-positions = <43 47>;
+            key-positions = <15 23>;
             timeout-ms = <75>;
         };
 
