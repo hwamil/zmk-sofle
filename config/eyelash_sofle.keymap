@@ -150,14 +150,12 @@
             key-positions = <15 16>;
             layers = <0 1>;
             timeout-ms = <75>;
-            require-prior-idle-ms = <200>;
         };
 
         enter {
             bindings = <&kp RETURN>;
             key-positions = <22 23>;
             timeout-ms = <75>;
-            require-prior-idle-ms = <200>;
         };
 
         wsleft {
