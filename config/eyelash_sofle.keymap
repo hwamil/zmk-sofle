@@ -398,7 +398,7 @@
             bindings = <
 &bt BT_SEL 0  &kp F1        &kp F2        &kp F3            &kp F4          &kp F5      &mmv MOVE_UP     &kp F6                &kp F7          &kp F8         &kp F9             &kp F10        &kp F11
 &bt BT_SEL 1  &mkp MB4      &msc SCRL_UP  &msc SCRL_DOWN    &mkp MB5        &mkp MB4    &mmv MOVE_DOWN   &kp C_BRIGHTNESS_INC  &kp C_PREVIOUS  &kp C_VOL_DN   &kp C_VOLUME_UP    &kp C_NEXT     &kp EQUAL
-&bt BT_SEL 2  &sk LEFT_GUI  &sk LEFT_ALT  &sk LEFT_CONTROL  &sk LEFT_SHIFT  &mkp MB5    &mmv MOVE_LEFT   &caps_word            &kp LEFT        &kp DOWN       &kp UP_ARROW       &kp RIGHT      &trans
+&bt BT_SEL 2  &sk LEFT_GUI  &sk LEFT_ALT  &sk LEFT_CONTROL  &sk LEFT_SHIFT  &mkp MB5    &mmv MOVE_LEFT   &kp CAPSLOCK          &kp LEFT        &kp DOWN       &kp UP_ARROW       &kp RIGHT      &trans
 &bt BT_CLR    &undo         &cut          &copy             &paste          &redo       &mmv MOVE_RIGHT  &kp C_BRIGHTNESS_DEC  &kp HOME        &kp PAGE_DOWN  &kp PAGE_UP        &kp END        &trans
 &kp C_MUTE    &trans        &trans        &trans            &trans          &trans      &mkp LCLK        &trans                &kp C_PLAY      &trans         &kp LA(LC(SPACE))  &kp RIGHT_ALT
             >;
