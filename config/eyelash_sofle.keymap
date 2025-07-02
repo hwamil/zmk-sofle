@@ -415,6 +415,8 @@
 &trans           &kp GRAVE         &kp N1  &kp N2  &kp N3  &kp MINUS            &rgb_ug RGB_EFF  &trans  &trans     &trans            &trans        &trans        &trans
 &trans           &trans            &trans  &trans  &kp N0  &kp BACKSLASH        &rgb_ug RGB_TOG  &trans  &trans     &trans            &trans        &trans
             >;
+
+            sensor-bindings = <&scroll_encoder>;
         };
     };
 };
