@@ -60,8 +60,8 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: navmed}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - Gui+Sft+S
-  - $$mdi:backspace-reverse-outline$$
-  - {t: '$$mdi:backspace$$', h: numrgb}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: numrgb}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:gesture-tap-hold$$'}
   - RGUI
   - $$mdi:apple-keyboard-control$$
@@ -320,8 +320,8 @@ layers:
   - {t: '0', s: )}
   - {t: \, s: '|'}
   - RGB TOG
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
