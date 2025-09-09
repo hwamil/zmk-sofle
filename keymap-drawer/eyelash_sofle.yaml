@@ -58,7 +58,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-space$$', h: navmed}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
+  - $$mdi:apple-keyboard-shift$$
   - Gui+Sft+S
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:backspace$$', h: numrgb}
