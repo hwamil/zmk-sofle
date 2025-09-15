@@ -55,10 +55,10 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:volume-off$$
   - '&thormem'
-  - $$mdi:apple-keyboard-control$$
+  - LEFT META
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-space$$', h: navmed}
-  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-control$$
   - Gui+Sft+S
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:backspace$$', h: numrgb}
