@@ -375,7 +375,7 @@
 &mt LA(LC(LEFT_SHIFT)) TAB           &kp Q                &kp W                &kp F                    &kp P                  &kp B         &kp DOWN_ARROW   &kp J       &kp L                   &kp U                     &kp Y                 &kp SEMI              &kp BSLH
 &mt LA(LC(LG(LEFT_SHIFT))) CAPSLOCK  &hrmLeft LEFT_GUI A  &hrmLeft LEFT_ALT R  &hrmLeft LEFT_CONTROL S  &hrmLeft LEFT_SHIFT T  &kp G         &kp LEFT_ARROW   &kp M       &hrmRight LEFT_SHIFT N  &hrmRight LEFT_CONTROL E  &hrmRight LEFT_ALT I  &hrmRight LEFT_GUI O  &kp APOS
 &kp LEFT_SHIFT                       &kp Z                &kp X                &kp C                    &kp D                  &kp V         &kp RIGHT_ARROW  &kp K       &kp H                   &kp COMMA                 &kp DOT               &kp FSLH              &kp LEFT_SHIFT
-&kp C_MUTE                           &thormem             &kp LCTRL            &kp LALT                 &customlt 3 SPACE      &kp LSHIFT    &kp LG(LS(S))    &kp DELETE  &customlt 4 BACKSPACE   &sk LEFT_ALT              &kp LCTRL             &thorhammer
+&kp C_MUTE                           &thormem             &kp LCTRL            &kp LALT                 &customlt 3 SPACE      &kp LSHIFT    &kp LG(LS(S))    &kp LSHIFT  &customlt 4 BACKSPACE   &sk LEFT_ALT              &kp LCTRL             &thorhammer
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -431,6 +431,16 @@
             >;
 
             sensor-bindings = <&scroll_encoder>;
+        };
+
+        numpad {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans           &trans           &trans           &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp KP_DOT       &trans           &trans           &trans
+            >;
         };
     };
 };
