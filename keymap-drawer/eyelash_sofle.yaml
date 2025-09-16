@@ -62,7 +62,7 @@ layers:
   - Gui+Sft+S
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:backspace$$', h: numrgb}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:gesture-tap-hold$$'}
+  - $$mdi:backspace-reverse-outline$$
   - $$mdi:apple-keyboard-control$$
   - '&thorhammer'
   qwerty:
