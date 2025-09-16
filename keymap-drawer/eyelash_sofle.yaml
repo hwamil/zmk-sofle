@@ -56,9 +56,9 @@ layers:
   - $$mdi:volume-off$$
   - '&thormem'
   - LEFT META
-  - $$mdi:apple-keyboard-option$$
+  - {t: '$$mdi:keyboard-tab$$', h: numpad}
   - {t: '$$mdi:keyboard-space$$', h: navmed}
-  - {t: Alt+S, h: numpad}
+  - $$mdi:apple-keyboard-shift$$
   - Gui+Sft+S
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:backspace$$', h: numrgb}
@@ -381,13 +381,13 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - KP DOT
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - KP DOT
+  - KP 0
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
