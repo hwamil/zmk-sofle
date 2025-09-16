@@ -58,7 +58,7 @@ layers:
   - LEFT META
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-space$$', h: navmed}
-  - $$mdi:apple-keyboard-control$$
+  - {t: Alt+S, h: numpad}
   - Gui+Sft+S
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:backspace$$', h: numrgb}
@@ -383,7 +383,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - KP DOT
