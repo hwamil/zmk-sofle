@@ -388,8 +388,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - KP 0
   - KP DOT
-  - KP COMMA
-  - KP EQUAL
+  - {t: ',', s: <}
+  - {t: '=', s: +}
 combos:
 - p: [15, 16]
   k: $$mdi:keyboard-esc$$
