@@ -54,9 +54,9 @@ layers:
   - {t: /, s: '?'}
   - Alt+Ctl+L
   - $$mdi:volume-off$$
-  - '&thormem'
+  - $$mdi:apple-keyboard-control$$
   - LEFT META
-  - {t: Alt+S, h: numpad}
+  - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-space$$', h: navmed}
   - $$mdi:apple-keyboard-shift$$
   - Gui+Sft+S
@@ -64,7 +64,7 @@ layers:
   - {t: '$$mdi:backspace$$', h: numrgb}
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:apple-keyboard-control$$
-  - '&thorhammer'
+  - Alt+Ctl+$$mdi:keyboard-space$$
   qwerty:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
@@ -381,7 +381,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
