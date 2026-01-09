@@ -56,7 +56,7 @@ layers:
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-control$$
   - LEFT META
-  - $$mdi:apple-keyboard-option$$
+  - Alt+S
   - {t: '$$mdi:keyboard-space$$', h: navmed}
   - $$mdi:apple-keyboard-shift$$
   - Gui+Sft+S
