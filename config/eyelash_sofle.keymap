@@ -379,7 +379,7 @@
             >;
 
             sensor-bindings = <&scroll_encoder>;
-            display-name = "LAYER0";
+            display-name = "colemak";
         };
 
         qwerty {
@@ -417,8 +417,8 @@
 &kp C_MUTE  &trans        &trans        &trans            &trans          &trans      &mkp LCLK        &trans                &kp C_PLAY      &trans         &kp LA(LC(SPACE))  &kp RIGHT_ALT
             >;
 
-             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
-            display-name = "LAYER1";
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
+            display-name = "navmed";
         };
 
         numrgb {
@@ -431,6 +431,7 @@
             >;
 
             sensor-bindings = <&scroll_encoder>;
+            label = "numrgb";
         };
 
         numpad {
@@ -441,6 +442,8 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp KP_MULTIPLY  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_DIVIDE  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans           &kp KP_NUMBER_0  &kp KP_DOT       &kp COMMA        &kp EQUAL
             >;
+
+            label = "numpad";
         };
 
         mouse {
