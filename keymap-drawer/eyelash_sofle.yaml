@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: eyelash_sofle}
 layers:
-  colemak:
+  LAYER0:
   - {t: '`', s: '~'}
   - '1'
   - {t: '2', s: '@'}
@@ -13,7 +13,7 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - {t: colemak, h: toggle}
+  - {t: LAYER0, h: toggle}
   - {t: '$$mdi:keyboard-tab$$', h: 'Alt+Ctl+$$mdi:apple-keyboard-shift$$'}
   - Q
   - W
@@ -57,7 +57,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - LEFT META
   - Alt+S
-  - {t: '$$mdi:keyboard-space$$', h: navmed}
+  - {t: '$$mdi:keyboard-space$$', h: LAYER1}
   - $$mdi:apple-keyboard-shift$$
   - Gui+Sft+S
   - $$mdi:apple-keyboard-shift$$
@@ -195,7 +195,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  navmed:
+  LAYER1:
   - {t: '$$mdi:transfer$$', type: trans}
   - F1
   - F2
@@ -433,10 +433,6 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:pan-left$$
-  - $$mdi:pan-down$$
-  - $$mdi:pan-up$$
-  - $$mdi:pan-right$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -449,9 +445,6 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:mouse-right-click-outline$$
-  - $$mdi:mouse-left-click-outline$$
-  - $$mdi:mouse-scroll-wheel$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -465,7 +458,7 @@ layers:
 combos:
 - p: [15, 16]
   k: $$mdi:keyboard-esc$$
-  l: [colemak, qwerty]
+  l: [LAYER0, qwerty]
 - p: [22, 23]
   k: RETURN
 - p: [30, 31]
